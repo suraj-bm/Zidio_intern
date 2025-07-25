@@ -1,0 +1,27 @@
+.summary-container {
+  text-align: center;
+}
+
+.summary-container table {
+  width: 80%;
+  margin: 1rem auto;
+  border-collapse: collapse;
+}
+
+.summary-container th,
+.summary-container td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+.summary-container th {
+  background-color: #f3f4f6;
+}
+
+.summary-container button {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}

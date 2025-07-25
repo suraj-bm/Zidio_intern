@@ -1,0 +1,48 @@
+.chart-container {
+  text-align: center;
+}
+
+.chart-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.chart-controls label {
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-controls select {
+  padding: 0.25rem;
+}
+
+.chart-controls button {
+  background: purple;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.chart-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.chart-actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.chart-actions button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+

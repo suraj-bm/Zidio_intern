@@ -1,0 +1,28 @@
+.manage-users-container {
+  text-align: center;
+}
+
+.manage-users-container table {
+  width: 80%;
+  margin: 1rem auto;
+  border-collapse: collapse;
+}
+
+.manage-users-container th,
+.manage-users-container td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+.manage-users-container th {
+  background-color: #f3f4f6;
+}
+
+.manage-users-container button {
+  background-color: purple;
+  color: white;
+  border: none;
+  margin-right: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}

@@ -1,0 +1,50 @@
+/* src/pages/Features.css */
+
+.features-page {
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  min-height: 100vh;
+}
+
+.features-page h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.feature-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #b200f0;
+}
+
+.feature-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #222;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #666;
+}

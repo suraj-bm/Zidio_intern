@@ -1,0 +1,36 @@
+### Register
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+  "username": "boomika122",
+  "email": "boomika12@gmail.com",
+  "password": "123456",
+  "confirmPassword": "123456"
+}
+
+### Login
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "email": "boomika12@gmail.com",
+  "password": "123456"
+}
+
+
+### Upload Excel File using REST Client
+POST http://localhost:5000/upload
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODZjOTNkYjRjNGMzNWNlNzNmYzQyMDciLCJpYXQiOjE3NTE5NDYyMDgsImV4cCI6MTc1MTk0OTgwOH0.wff80Ma3WjiElWd6hMWGmJ-1GPKS_O6Lw-vnHO-fA4o
+Content-Type: multipart/form-data; boundary=MyBoundary
+
+--MyBoundary
+Content-Disposition: form-data; name="file"; filename="sample.xlsx"
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+
+< ./sample.xlsx
+--MyBoundary--
+
+### View Upload History
+GET http://localhost:5000/history
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODZjOTNkYjRjNGMzNWNlNzNmYzQyMDciLCJpYXQiOjE3NTE5NDYyMDgsImV4cCI6MTc1MTk0OTgwOH0.wff80Ma3WjiElWd6hMWGmJ-1GPKS_O6Lw-vnHO-fA4o

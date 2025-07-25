@@ -1,0 +1,22 @@
+.upload-container {
+  text-align: center;
+}
+
+.upload-box {
+  border: 2px dashed #ccc;
+  padding: 2rem;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+
+.upload-box p {
+  margin-top: 0.5rem;
+}
+
+.upload-container button {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
