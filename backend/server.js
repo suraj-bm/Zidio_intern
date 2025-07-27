@@ -11,7 +11,7 @@ app.use(cors({ origin: "http://localhost:3000", credentials: true }));
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect("mongodb+srv://Username: Password@cluster0o0.a600s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0o0")
+mongoose.connect("process.env.Mongo_URI")
   .then(() => console.log("✅ MongoDB Connected"))
   .catch((err) => console.error("❌ MongoDB connection error", err));
 
