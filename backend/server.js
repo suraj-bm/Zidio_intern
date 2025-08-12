@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 const app = express();
 
 // Middlewares
-app.use(cors({ origin: "http://localhost:3000", credentials: true }));
+app.use(cors({ origin: "https://excel-visualizer-frontend.onrender.com", credentials: true }));
 app.use(bodyParser.json());
 
 // Connect to MongoDB
