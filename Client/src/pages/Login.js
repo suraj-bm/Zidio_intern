@@ -14,7 +14,7 @@ function Login() {
     setErrorMsg(""); // Reset previous error
 
     try {
-      const response = await axios.post("http://localhost:5000/api/login", {
+      const response = await axios.post("https://excel-visualizer.onrender.com/api/login", {
         email,
         password,
       });

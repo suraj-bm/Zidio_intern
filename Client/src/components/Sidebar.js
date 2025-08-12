@@ -56,12 +56,12 @@ function Sidebar({ role }) {
           >
             Analyze Data
           </Link>
-          <Link
+          {/* <Link
             to="/dashboard/summary"
             className={location.pathname === "/dashboard/summary" ? "active" : ""}
           >
             AI Summary
-          </Link>
+          </Link> */}
           <Link
             to="/profile"
             className={location.pathname === "/profile" ? "active" : ""}
