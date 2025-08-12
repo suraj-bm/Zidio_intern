@@ -11,7 +11,11 @@ app.use(cors({ origin: "http://localhost:3000", credentials: true }));
 app.use(bodyParser.json());
 
 // Connect to MongoDB
+<<<<<<< HEAD
 mongoose.connect("mongodb+srv://surajbm:35781910pk@cluster0o0.a600s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0o0")
+=======
+mongoose.connect("mongodb+srv://<username>:<dbpassword>@cluster0o0.a600s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0o0")
+>>>>>>> 93fa9621657c35bf7ec54dc2b05b3ee8a25a8991
   .then(() => console.log("✅ MongoDB Connected"))
   .catch((err) => console.error("❌ MongoDB connection error", err));
 
